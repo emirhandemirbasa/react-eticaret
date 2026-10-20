@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 130%);
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.header-brand {
+    font-style: italic;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+    line-height: 1.2;
+}
+
+.header-brand span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-btn {
+    color: black;
+}
+
+.icon {
+    color: white;
+    cursor: pointer;
+}
+
+.icon-24px {
+    font-size: 24px;
+}
+
+.header-middle {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.signin-btn {
+    text-decoration: none;
+    background-color: white;
+    color: #6a11cb;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
