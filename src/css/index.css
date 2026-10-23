@@ -1,0 +1,21 @@
+:root {
+    --bg-color: #efefef;
+    --bg-secondary-color: white;
+    --primary-text-color: #000000;
+    --secondary-text-color: #525252;
+    --card-bg: #f8fafc;
+    --card-price-color: #258b40;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --bg-secondary-color: black;
+    --card-bg: #1e1e1e;
+    --primary-text-color: #e2e8f0;
+    --secondary-text-color: #efefef;
+    --card-price-color: #5cde7e;
+}
+
+body {
+    background-color: var(--bg-color);
+}
