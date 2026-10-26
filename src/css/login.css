@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f5fc;
+    margin: 0;
+}
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    width: 100%;
+    gap: 16px;
+    background: #ffffff;
+    box-shadow: 0 12px 30px -10px rgba(149, 0, 255, 0.12);
+    padding: 36px 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(149, 0, 255, 0.08);
+}
+
+.auth-title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 14px;
+    margin-bottom: 6px;
+}
+
+.icon-bg {
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f0d6ff, #e2b8ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(149, 0, 255, 0.15);
+}
+
+.auth-icon {
+    font-size: 24px;
+    color: #7b00cc;
+}
+
+.auth-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2b123d;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-control label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #524063;
+}
+
+.auth-input {
+    padding: 12px 14px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fcf7ff;
+    border: 1px solid rgba(149, 0, 255, 0.2);
+    font-size: 15px;
+    color: #2b123d;
+    transition: all 0.2s ease;
+}
+
+.auth-input:focus {
+    background-color: #ffffff;
+    border-color: #9500ff;
+    box-shadow: 0 0 0 4px rgba(149, 0, 255, 0.12);
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #524063;
+    margin: 2px 0;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.remember-me input[type="checkbox"] {
+    accent-color: #9500ff;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #9500ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.forgot-password:hover {
+    color: #6b00b8;
+    text-decoration: underline;
+}
+
+.signin-btns {
+    background: linear-gradient(135deg, #9500ff, #b238ff);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(149, 0, 255, 0.25);
+    width: 100%;
+}
+
+.signin-btns:hover {
+    background: linear-gradient(135deg, #8200e0, #9f24eb);
+    box-shadow: 0 6px 16px rgba(149, 0, 255, 0.35);
+    transform: translateY(-1px);
+}
+
+.signin-btns:active {
+    transform: translateY(0);
+}
+
+.auth-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #6c5d7d;
+    margin-top: 4px;
+}
+
+.auth-footer a {
+    color: #9500ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.auth-footer a:hover {
+    color: #6b00b8;
+    text-decoration: underline;
+}
