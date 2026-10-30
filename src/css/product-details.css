@@ -1,0 +1,105 @@
+.book-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 80px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.book-detail-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    flex-wrap: wrap;
+}
+
+.book-detail-first-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-detail-image {
+    width: 100%;
+    max-width: 260px;
+    height: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-detail-second-section {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.book-detail-three-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.book-detail-three-section h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.book-description-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.book-detail-book-name {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+}
+
+.book-detail-writer-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+}
+
+.book-detail-book-price {
+    font-weight: 800;
+    font-size: 24px;
+    color: #27ae60;
+}
+
+.book-detail-book-page-count,
+.book-detail-book-publishing-house {
+    font-size: 16px;
+    color: #666;
+}
