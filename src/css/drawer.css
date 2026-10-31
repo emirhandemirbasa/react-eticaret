@@ -1,0 +1,111 @@
+.app-drawer {
+    width: 420px;
+    max-width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.drawer-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.drawer-body {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.drawer-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.close-drawer-icon {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.my-basket {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.siparis-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.basket-product {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid #eee;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 7px;
+    align-items: center;
+}
+
+.product-basket-info {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.basket-product img {
+    height: 100px
+}
+
+.total-amount {
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.total-amount span {
+    font-weight: 400;
+}
+
+.delete-product-icon-btn {
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.basket-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.basket-img-and-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
