@@ -1,0 +1,166 @@
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #ffffff;
+    width: 600px;
+    max-height: 85vh;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    outline: none;
+}
+
+.modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.modal-body {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-table-wrapper {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+}
+
+.modal-product-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.modal-product-table th {
+    background-color: #f8f9fa;
+    padding: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+.modal-product-table td {
+    padding: 12px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+}
+
+.modal-body img {
+    width: 45px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.modal-address-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+}
+
+.modal-address-section h3 {
+    margin: 0 0 8px 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+.modal-address-section p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.modal-footer {
+    padding: 15px 20px;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fcfcfc;
+}
+
+
+.modal-price-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.badge {
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+}
+
+.badge-bekliyor {
+    background-color: rgb(255, 243, 205);
+    color: rgb(133, 100, 4);
+    border: 1px solid rgb(255, 221, 138);
+}
+
+.badge-hazirlaniyor {
+    background-color: rgb(209, 236, 241);
+    color: rgb(12, 84, 96);
+    border: 1px solid rgb(180, 223, 231);
+}
+
+.badge-kargo {
+    background-color: rgb(226, 215, 255);
+    color: rgb(75, 0, 130);
+    border: 1px solid rgb(200, 180, 255);
+}
+
+.badge-dagitimda {
+    background-color: rgb(255, 229, 204);
+    color: rgb(180, 80, 0);
+    border: 1px solid rgb(255, 200, 150);
+}
+
+.badge-teslim {
+    background-color: rgb(212, 237, 218);
+    color: rgb(21, 87, 36);
+    border: 1px solid rgb(195, 230, 203);
+}
+
+.badge-bagde-iptal,
+.badge-iptal {
+    background-color: rgb(248, 215, 218);
+    color: rgb(114, 28, 36);
+    border: 1px solid rgb(245, 198, 203);
+}
+
+.badge-iptal-onay {
+    background-color: rgb(255, 141, 88);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 119, 46);
+}
