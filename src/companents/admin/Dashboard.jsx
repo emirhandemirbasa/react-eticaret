@@ -1,8 +1,12 @@
 import React from 'react'
+import TopFavoritesBarChart from '../dashboard/TopFavoritesBarChart'
 
 function Dashboard() {
     return (
-        <div>Dashboard</div>
+        <div>
+            <div>Dashboard</div>
+            <TopFavoritesBarChart />
+        </div>
     )
 }
 
