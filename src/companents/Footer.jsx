@@ -3,7 +3,7 @@ import '../css/footer.css'
 import { Link } from 'react-router-dom'
 function Footer() {
     return (
-        <footer>
+        <footer className="main-footer">
             <div className="footer-main">
                 <div className="site-title">
                     <Link to="/" className='link'><p className="footer-brand">Empi's Books<br /><span>"Kitap kokulu dünyanız"</span></p></Link>
